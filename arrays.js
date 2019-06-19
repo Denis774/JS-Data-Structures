@@ -2,7 +2,7 @@ function primeNumbersTo(Max)
 
         {
             
-    var store  = [], i, j, primeNumbers = []; // This step calls for initialisation the array to store values
+    var store  = [], i, j, primeNumbers = []; // This step initialises the array to store values
    
     for (i = 2; i <= 100; ++i) 
     {
