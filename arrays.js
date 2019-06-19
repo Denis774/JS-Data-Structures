@@ -9,7 +9,7 @@ function primeNumbersTo(Max)
         if (!store [i]) 
           {
             primeNumbers.push(i); //populates the array
-            for (j = i << 1; j <= 100; j += i) 
+            for (j = i << 0; j <= 100; j += i) 
             {
                 store[j] = true;
             }
