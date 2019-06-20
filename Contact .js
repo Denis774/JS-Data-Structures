@@ -12,7 +12,7 @@ function Contact(first_name, second_name, phone_number, email, address) /*The co
   this.second_name = second_name,
   this.phone_number = phone_number,
   this.email = email,
-  this.address = address
+  this.address = ["street","city","country"];
 }
 
 Contact.prototype.full_name = function() 
