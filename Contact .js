@@ -19,9 +19,9 @@ Contact.prototype.full_name = function()
 
 {
 	
-  console.log("Your full_name:"  + this.first_name + " " + this.second_name);
+  console.log("MY Fullname:"  + this.first_name + " " + this.second_name + " " + "Telephone:" +this.phone_number + " " + "Email:" +this.email+ " " + "Address:" +this.address);
 	}
-var Contact = new Contact ("Denis", "Ahimbisibwe", "+256752202389", "ahimbisibwedenis@yahoo.com",240);
+var Contact = new Contact ("Denis", "Ahimbisibwe", "+256752202389", "ahimbisibwedenis@yahoo.com","Plot 45,Kampala Road, P.o.Box 7120, Kampala, Uganda");
 Contact.full_name(); //Sets new object's prototype property to be the constructor function's prototype object and returns the newly created object.
 
 
