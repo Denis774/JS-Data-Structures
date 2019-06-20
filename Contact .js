@@ -20,7 +20,6 @@ function Contact(first_name, second_name, phone_number, email, address) /*The co
 Contact.prototype.full_name = function()  //Sets new object's prototype property to be the constructor function's prototype object and returns the newly created object.
 
 
-
 {
 	
   console.log("MY Fullname:"  + this.first_name + " " + this.second_name);
