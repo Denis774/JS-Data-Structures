@@ -3,8 +3,10 @@ function AddressBook()
   this.contacts = []
 }
 // contacts list
+
 function Contact(first_name, second_name, phone_number, email, address) /*The constructor function */
  {
+	 
   // The properties of this object
   this.first_name = first_name,
   this.second_name = second_name,
